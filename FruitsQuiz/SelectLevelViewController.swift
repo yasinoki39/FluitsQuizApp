@@ -2,7 +2,7 @@
 //  SelectLevelViewController.swift
 //  FruitsQuiz
 //
-//  Created by 柳田晋吾 on 2021/02/17.
+//  Created by SHINGO YANAGIDA on 2021/02/17.
 //
 
 import UIKit

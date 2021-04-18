@@ -2,7 +2,7 @@
 //  ScoreViewController.swift
 //  FruitsQuiz
 //
-//  Created by 柳田晋吾 on 2021/02/16.
+//  Created by SHINGO YANAGIDA on 2021/02/16.
 //
 
 import UIKit
