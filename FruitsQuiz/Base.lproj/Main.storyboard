@@ -115,7 +115,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZw-ed-P2g">
-                                <rect key="frame" x="202" y="617" width="153" height="30"/>
+                                <rect key="frame" x="200" y="612" width="165" height="30"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
                                 <state key="normal" title="プライバシーポリシー"/>
                                 <connections>
@@ -126,13 +126,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGray5Color"/>
                         <constraints>
+                            <constraint firstItem="jZw-ed-P2g" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="200" id="CYV-x8-QEc"/>
                             <constraint firstItem="TmB-aK-Lsi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="Fc1-4F-ubL"/>
                             <constraint firstItem="TmB-aK-Lsi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q8w-ls-vsc"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jZw-ed-P2g" secondAttribute="bottom" constant="20" id="ThV-uo-fVn"/>
                             <constraint firstItem="5Rg-eE-hEE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="a6v-f5-P9R"/>
                             <constraint firstItem="5Rg-eE-hEE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jTv-3o-QsD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jZw-ed-P2g" secondAttribute="bottom" constant="25" id="nxz-YF-lxx"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5Rg-eE-hEE" secondAttribute="trailing" constant="20" id="oTh-rB-R9v"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jZw-ed-P2g" secondAttribute="trailing" constant="20" id="qzl-sM-hHa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jZw-ed-P2g" secondAttribute="trailing" constant="10" id="rdN-re-gYe"/>
                         </constraints>
                     </view>
                     <connections>
@@ -141,7 +142,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-820.28985507246387" y="73.660714285714278"/>
+            <point key="canvasLocation" x="-821.60000000000002" y="73.313343328335833"/>
         </scene>
         <!--Quiz View Controller-->
         <scene sceneID="PP6-SO-6re">

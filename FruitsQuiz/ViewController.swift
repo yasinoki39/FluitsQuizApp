@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var startButton: UIButton!
     @IBAction func privacypolicyButton(_ sender: Any) {
-        if let url = URL(string: "https://yasinoki39.github.io/FluitsQuiz_PrivacyPolicy/"){
+        if let url = URL(string: "https://yasinoki39.github.io/FruitsQuiz_PrivacyPolicy/"){
         UIApplication.shared.open(url)
         //ボタンが押されたらURLへ飛ぶ
         }
