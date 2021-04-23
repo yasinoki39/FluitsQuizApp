@@ -26,6 +26,7 @@ $ git clone https://github.com/yasinoki39/FruitsQuizApp.git
  
 ## 作者
  
-[yasinoki39](https://twitter.com/yasinoki39)
+[@yasinoki39](https://twitter.com/yasinoki39)
+
 mail to: yasinoki39@gmail.com
  
