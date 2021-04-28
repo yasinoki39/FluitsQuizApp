@@ -1,0 +1,42 @@
+Swift,Xcodeの知識
+IDE(Integrated Development Environment)総合開発環境
+Swift 一択
+iosのHIG(Human Interface Guideline)に関する知識
+UIKit,SwiftUI,Storyboard,AutoLayout等のUI関係のライブラリやツールの知識
+CocoaPods,Swift Package Manager等のパッケージマネージャーの知識
+XCTest等のテストフレームワークの知識
+
+アーキテクチャパターン
+railsはMVC(Model View Controller)というアーキテクチャを採用していて
+iosの場合はMVC(Model View Controller),MVP(Model View Pressenter),
+MVVM(Model View ViewModel),VIPER(View Interactor Pressenter Entity Routing)...
+等のアーキテクチャを採用している
+
+★IOSのフレームワークに対する深い知識とSwiftを使ったアプリの開発経験
+
+★リアクティブプログラミングに対する知識と経験
+(プログラムが必要なデータを自分から取得し処理をするのではなく、送られてきたデータを受け取るたびに反応して
+処理をする(リアクティブな処理をする)ようなプログラムにすることがリアクティブプログラミング)
+
+★モダンなIOSアプリケーションアーキテクチャの知識
+
+★XcodeやInstrumentsに習熟しており、複雑な調査やデバックを行う能力
+
+★CIやテスト自動化などの開発環境に対する知識とそれらを改善した経験
+
+★他の職種との円滑なコミュニケーション能力
+
+▼業務内容
+クリエイティブレベルの高いiOSアプリの実現のために、UIやアニメーション・インタラクションの設計・開発、エンドユーザーに寄り添った機能開発・運用、iOSに関する深い知識を用いたアプリパフォーマンスの改善、テスタビリティの向上などスケーラビリティのあるプロジェクトへの本質的改善作業、AppleWatchやAppleTVなどのマルチデバイス対応、広告配信・トラッキング・課金のためのSDK(Software Development Kit(ソフトウェア開発キット))開発などを行います。
+
+gsuite,slack,clickup,scrapbox
+
+appleが開発した、プログラミング言語
+静的型付け言語
+Swiftでは基本的にnilを代入できない仕様になっている
+変数や定数が基本的にnilを許容しない仕様なので
+値の有無までコンパイル時に決定していることで安全性をさらに強化している
+型推論(代入した値によって型が変わる　型宣言がいらないので簡潔になる)
+ジェネリクスとは特定の型に制限されない汎用的なプログラムを記述するための機能
+objective-Cと連携可能
+
