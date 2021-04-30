@@ -33,9 +33,10 @@ class QuizViewController: UIViewController {
         csvArray.shuffle()
         
         quizArray = csvArray[quizCount].components(separatedBy: ",")
-     
+        
         quizNumberLabel.text = "第\(quizCount + 1)問"
         quizTextView.text = quizArray[0]
+        
         answerButton1.setTitle(quizArray[2], for: .normal)
         answerButton2.setTitle(quizArray[3], for: .normal)
         answerButton3.setTitle(quizArray[4], for: .normal)
@@ -99,6 +100,7 @@ class QuizViewController: UIViewController {
     
     func loadCSV(fileName: String) -> [String] {
         let csvBundle = Bundle.main.path(forResource: fileName, ofType: "csv")!
+        
         do {
             let csvData = try String(contentsOfFile: csvBundle, encoding: String.Encoding.utf8)
             let lineChange = csvData.replacingOccurrences(of: "\r", with: "\n")
@@ -107,6 +109,7 @@ class QuizViewController: UIViewController {
         } catch{
             print("エラー")
         }
+        
         return csvArray
     }
 
