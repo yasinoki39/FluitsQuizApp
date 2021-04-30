@@ -26,13 +26,6 @@ class QuizViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        /*
-        bannerView = GADBannerView(adSize: kGADAdSizeBanner)
-        bannerView.adUnitID = "ca-app-pub-7776680860513273/8547325198"
-        bannerView.rootViewController = self
-        bannerView.load(GADRequest())
-        addBannerViewToView(bannerView)
-         */
  
         print("選択したのはレベル\(selectLevel)")
 
@@ -56,8 +49,6 @@ class QuizViewController: UIViewController {
         answerButton3.layer.borderColor = UIColor.black.cgColor
         answerButton4.layer.borderWidth = 2
         answerButton4.layer.borderColor = UIColor.black.cgColor
-        
-        // Do any additional setup after loading the view.
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

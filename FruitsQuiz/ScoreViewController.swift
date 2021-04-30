@@ -23,8 +23,6 @@ class ScoreViewController:UIViewController {
         shareButton.layer.borderColor = UIColor.black.cgColor
         returnTopButton.layer.borderWidth = 2
         returnTopButton.layer.borderColor = UIColor.black.cgColor
-        
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func shareButtonAction(_ sender: Any) {//結果をTwitterでシェアする
@@ -48,16 +46,11 @@ class ScoreViewController:UIViewController {
         self.presentingViewController?.presentingViewController?.presentingViewController?.dismiss(animated: true)
         //3つの画面を同時に閉じる
     }
-    
-
-    
-    // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
-    
 
 }
