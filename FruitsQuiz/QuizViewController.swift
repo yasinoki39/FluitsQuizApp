@@ -58,6 +58,7 @@ class QuizViewController: UIViewController {
     }
     
     @IBAction func btnAction(sender: UIButton) {
+        
         if sender.tag == Int(quizArray[1]) {
             print("正解")
             correctCount += 1
@@ -66,8 +67,11 @@ class QuizViewController: UIViewController {
             print("不正解")
             judgeImageView.image = UIImage(named: "incorrect")
         }
+        
         print("スコア:\(correctCount)")
+        
         judgeImageView.isHidden = false
+        
         answerButton1.isEnabled = false
         answerButton2.isEnabled = false
         answerButton3.isEnabled = false
@@ -85,6 +89,7 @@ class QuizViewController: UIViewController {
     
     func nextQuiz() {
         quizCount += 1
+        
         if quizCount < csvArray.count {
             quizArray = csvArray[quizCount].components(separatedBy: ",")
             quizNumberLabel.text = "第\(quizCount + 1)問"
