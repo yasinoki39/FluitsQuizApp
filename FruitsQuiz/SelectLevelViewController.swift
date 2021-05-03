@@ -10,7 +10,6 @@ import UIKit
 class SelectLevelViewController: UIViewController {
     @IBOutlet weak var level1Button: UIButton!
     @IBOutlet weak var level2Button: UIButton!
-    
     @IBOutlet weak var level3Button: UIButton!
     
     var selectTag = 0
