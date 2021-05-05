@@ -26,9 +26,9 @@ class QuizViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
- 
+        
         print("選択したのはレベル\(selectLevel)")
-
+        
         csvArray = loadCSV(fileName: "quiz\(selectLevel)")
         csvArray.shuffle()
         
@@ -76,7 +76,7 @@ class QuizViewController: UIViewController {
         answerButton2.isEnabled = false
         answerButton3.isEnabled = false
         answerButton4.isEnabled = false
-
+        
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5){
             self.judgeImageView.isHidden = true
             self.answerButton1.isEnabled = true
@@ -117,5 +117,5 @@ class QuizViewController: UIViewController {
         
         return csvArray
     }
-
+    
 }

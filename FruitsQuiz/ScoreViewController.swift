@@ -13,7 +13,7 @@ class ScoreViewController:UIViewController {
     @IBOutlet weak var returnTopButton: UIButton!
     
     var correct = 0
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         scoreLabel.text = "\(correct)問正解!"
@@ -29,13 +29,13 @@ class ScoreViewController:UIViewController {
         let text = "\(correct)問正解しました"
         let hashTag = "#クイズアプリ"
         let completedText = text + "\n" + hashTag
-
+        
         //作成したテキストをエンコード
         let encodedText = completedText.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
-
+        
         //エンコードしたテキストをURLに繋げ、URLを開いてツイート画面を表示させる
         if let encodedText = encodedText,
-            let url = URL(string: "https://twitter.com/intent/tweet?text=\(encodedText)") {
+           let url = URL(string: "https://twitter.com/intent/tweet?text=\(encodedText)") {
             UIApplication.shared.open(url)
         }
     }
@@ -44,11 +44,11 @@ class ScoreViewController:UIViewController {
         self.presentingViewController?.presentingViewController?.presentingViewController?.dismiss(animated: true)
         //3つの画面を同時に閉じる
     }
-
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
-
+    
 }
