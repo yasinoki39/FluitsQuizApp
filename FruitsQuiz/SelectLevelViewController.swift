@@ -16,7 +16,7 @@ class SelectLevelViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         level1Button.layer.borderWidth = 2
         level1Button.layer.borderColor = UIColor.black.cgColor
         
@@ -38,5 +38,5 @@ class SelectLevelViewController: UIViewController {
         selectTab = sender.tag
         performSegue(withIdentifier: "toQuizVC", sender: nil)
     }
-
+    
 }
