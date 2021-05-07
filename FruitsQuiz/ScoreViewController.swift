@@ -36,7 +36,11 @@ class ScoreViewController:UIViewController {
         //エンコードしたテキストをURLに繋げ、URLを開いてツイート画面を表示させる
         if let encodedText = encodedText,
            let url = URL(string: "https://twitter.com/intent/tweet?text=\(encodedText)") {
-            UIApplication.shared.open(url)
+            if #available(iOS 10.0, *) {
+                UIApplication.shared.open(url)
+            } else {
+                // Fallback on earlier versions
+            }
         }
     }
     
