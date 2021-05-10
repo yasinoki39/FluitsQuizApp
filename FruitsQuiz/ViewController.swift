@@ -16,7 +16,7 @@ class ViewController: UIViewController {
                 UIApplication.shared.open(url)
             } else {
                 // Fallback on earlier versions
-            }  //ボタンが押されたらURLへ飛ぶ
+            }  //ボタンが押されたらプライバシーポリシーURLへ飛ぶ
         }
     }
     
