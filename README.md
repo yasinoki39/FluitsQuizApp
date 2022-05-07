@@ -15,14 +15,6 @@
 ## 使い方
  
 - 使い方 インストールしてcsvやタイトルなどを変更してもらえれば、自作のクイズアプリがかんたんに作れると思います
-
-## インストール
-
-$ git clone https://github.com/yasinoki39/FruitsQuizApp.git
-
-## その他
-
-- 特になし
  
 ## 作者
  
